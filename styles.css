@@ -3,14 +3,11 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(61, 126, 248);
-    box-sizing:border-box;
-}
-body{width:100%;
+    box-sizing: border-box;
 }
 .header{
     width: 100%;
     padding: 3px 10px;
-    box-sizing:border-box;
 }
 .btn{
     padding: 10px;
@@ -94,7 +91,7 @@ a{
     margin: 5px;
 }
 
-@media screen and (max-device-width: 480px) and (orientation: portrait) {
+@media screen and (max-device-width: 620px) and (orientation: portrait) {
     .input_wrapper{
         width: 85%;
     }
