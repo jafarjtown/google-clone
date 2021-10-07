@@ -3,7 +3,7 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(61, 126, 248);
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 .header{
     width: 100%;
@@ -92,6 +92,9 @@ a{
 }
 
 @media screen and (max-device-width: 620px) and (orientation: portrait) {
+    *{
+        box-sizing: border-box;
+    }
     .input_wrapper{
         width: 85%;
     }
