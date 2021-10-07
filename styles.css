@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(61, 126, 248);
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    padding: 3px 10px;
+}
+.btn{
+    padding: 10px;
+    border: 0;
+    background-color: transparent;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 1em;
+    color: rgb(139, 139, 139);
+    cursor: pointer;
+}
+.btn:nth-child(1){
+    border-bottom: 2px solid;
+    color: rgb(61, 126, 248);
+}
+.main{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 3.5em;
+    padding: 10px;
+}
+span{
+    margin: 0;
+    padding: 0;
+}
+.o:nth-child(3){
+    color: orange;
+}
+.o:nth-child(2){
+    color: red;
+}
+.l{
+    color: green;
+}
+.e{
+    color: red;
+}
+.input_wrapper{
+    width: 60%;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    display: flex;
+}
+.input_wrapper > input{
+    padding: 12px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    outline: none;
+    flex: 10;
+    color: black;
+    font-size: medium;
+}
+.input_wrapper > button{
+    color: white;
+    background-color: rgb(61, 126, 248);
+    border-radius: 0 20px 20px 0;
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer > div{
+    margin: 15px 0;
+    color: black;
+}
+a{
+    text-transform: none;
+    text-decoration: none;
+    margin: 5px;
+}
+
+@media screen and (max-device-width: 620px) and (orientation: portrait) {
+    .input_wrapper{
+        width: 85%;
+    }
+}
