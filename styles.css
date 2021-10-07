@@ -91,7 +91,7 @@ a{
     margin: 5px;
 }
 
-@media screen and (max-device-width: 620px) and (orientation: portrait) {
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
     .input_wrapper{
         width: 85%;
     }
