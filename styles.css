@@ -92,6 +92,9 @@ a{
 }
 
 @media screen and (max-device-width: 620px) and (orientation: portrait) {
+    .main{
+        background-color: red;
+    }
     *{
         box-sizing: border-box;
     }
